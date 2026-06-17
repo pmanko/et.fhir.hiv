@@ -1,0 +1,236 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/hiv/ValueSet/arv-regimen-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ARVRegimenVS",
+    "title" : "ART Regimen Value Set",
+    "description" : "Antiretroviral therapy regimens dispensed in the Ethiopia HIV program.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/arv-regimen-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/exposure-source-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ExposureSourceVS",
+    "title" : "Source of Exposure ValueSet",
+    "description" : "Value set of Source of Exposure values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/exposure-source-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-adherence-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "AdherenceVS",
+    "title" : "ART Adherence Value Set",
+    "description" : "Value set for documenting ART adherence",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-adherence-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-assay-number-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayNumberVS",
+    "title" : "HIV Assay Number",
+    "description" : "Permitted assay numbers in HIV testing strategy",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-assay-number-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-assay-result-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayResultVS",
+    "title" : "HIV Assay Result",
+    "description" : "Allowed HIV assay results",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-assay-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-condition-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVConditionVS",
+    "title" : "HIV Condition Value Set",
+    "description" : "Value set representing HIV-related conditions and statuses",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-condition-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-exposure-ways-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVExposureWaysVS",
+    "title" : "Ways of HIV Exposure",
+    "description" : "Ways in which the client was exposed to HIV",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-exposure-ways-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-prevention-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVPreventionServicesVS",
+    "title" : "HIV Prevention Services and Referrals",
+    "description" : "Value set of HIV Prevention Services and Referrals values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-prevention-services-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-self-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVSelfTestResultVS",
+    "title" : "HIV Self-test Result ValueSet",
+    "description" : "Value set of HIV Self-test Result values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-self-test-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-serotype-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVSerotypeVS",
+    "title" : "HIV Serotype",
+    "description" : "HIV serotype classification",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-serotype-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-status-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVStatusVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-status-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestResultVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-test-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVTestTypeVS",
+    "title" : "HIV Test Type",
+    "description" : "Permitted HIV test types",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-test-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-testing-entry-point-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingEntryPointVS",
+    "title" : "HIV Testing Entry Point ValueSet",
+    "description" : "ValueSet of HIV Testing Service entry points",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-testing-entry-point-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-testing-reason-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingReasonVS",
+    "title" : "HIV Testing Reason ValueSet",
+    "description" : "Reasons for HIV testing",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-testing-reason-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-transmission-route-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTransmissionRouteVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-transmission-route-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hts-service-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HTSServiceVS",
+    "title" : "HTS Service Types ValueSet",
+    "description" : "Value set for HTS service delivery types.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hts-service-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/key-population-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "KeyPopulationTypeVS",
+    "title" : "Key Population Type ValueSet",
+    "description" : "Value set of Key Population Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/key-population-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/other-clinical-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherClinicalServicesVS",
+    "title" : "Other Clinical Services Offered",
+    "description" : "Value set of Other Clinical Services Offered values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/other-clinical-services-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/other-support-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherSupportServicesVS",
+    "title" : "Other Support Services",
+    "description" : "Value set of Other Support Services values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/other-support-services-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-contact-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerContactTypeVS",
+    "title" : "Partner Contact Type ValueSet",
+    "description" : "Value set of Partner Contact Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-contact-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-risk-category-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerRiskCategoryVS",
+    "title" : "Partner High Risk Category ValueSet",
+    "description" : "Value set of Partner High Risk Category values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-risk-category-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-services-referral-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerServicesReferralVS",
+    "title" : "Partner Services Referral ValueSet",
+    "description" : "Value set of Partner Services Referral values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-services-referral-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-dosing-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PrEPDosingTypeVS",
+    "title" : "PrEP Dosing Type ValueSet",
+    "description" : "Value set of PrEP Dosing Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-dosing-type-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-visit-interval-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PrepVisitIntervalVS",
+    "title" : "PrEP Visit Interval ValueSet",
+    "description" : "Value set of PrEP Visit Interval values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-visit-interval-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-visit-reason-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "PrepVisitReasonVS",
+    "title" : "PrEP Visit Reason ValueSet",
+    "description" : "Value set of PrEP Visit Reason values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-visit-reason-cs"]
+  }]
+}

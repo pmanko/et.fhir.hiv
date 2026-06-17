@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-exposure-ways-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-exposure-ways-cs</b></p><a name="hiv-exposure-ways-cs"> </a><a name="hchiv-exposure-ways-cs"> </a><p>This  code system <code>http://fhir.et/hiv/CodeSystem/hiv-exposure-ways-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sexual<a name="hiv-exposure-ways-cs-sexual"> </a></td><td>Sexual exposure</td></tr><tr><td style="white-space:nowrap">injecting-drugs<a name="hiv-exposure-ways-cs-injecting-drugs"> </a></td><td>Injected drugs</td></tr><tr><td style="white-space:nowrap">mother-to-child<a name="hiv-exposure-ways-cs-mother-to-child"> </a></td><td>Mother-to-child transmission</td></tr><tr><td style="white-space:nowrap">blood-transfusion<a name="hiv-exposure-ways-cs-blood-transfusion"> </a></td><td>Received blood or blood product transfusion or transplant</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/hiv/CodeSystem/hiv-exposure-ways-cs"/>
+  <version value="0.1.0"/>
+  <name value="HIVExposureWaysCS"/>
+  <title value="HIV Exposure Ways CodeSystem"/>
+  <status value="active"/>
+  <date value="2026-06-17T10:46:20+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Codes representing possible HIV exposure routes"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="sexual"/>
+    <display value="Sexual exposure"/>
+  </concept>
+  <concept>
+    <code value="injecting-drugs"/>
+    <display value="Injected drugs"/>
+  </concept>
+  <concept>
+    <code value="mother-to-child"/>
+    <display value="Mother-to-child transmission"/>
+  </concept>
+  <concept>
+    <code value="blood-transfusion"/>
+    <display value="Received blood or blood product transfusion or transplant"/>
+  </concept>
+</CodeSystem>

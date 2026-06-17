@@ -1,0 +1,26 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "prep-dosing-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem prep-dosing-type-cs</b></p><a name=\"prep-dosing-type-cs\"> </a><a name=\"hcprep-dosing-type-cs\"> </a><p>This  code system <code>http://fhir.et/hiv/CodeSystem/prep-dosing-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">daily-oral<a name=\"prep-dosing-type-cs-daily-oral\"> </a></td><td>Daily oral PrEP</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"prep-dosing-type-cs-other\"> </a></td><td>Other PrEP dosing type</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/hiv/CodeSystem/prep-dosing-type-cs",
+  "version" : "0.1.0",
+  "name" : "PrEPDosingTypeCS",
+  "title" : "PrEP Dosing Type CodeSystem",
+  "status" : "draft",
+  "date" : "2026-06-17T10:46:20+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Code system of PrEP Dosing Type codes.",
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "daily-oral",
+    "display" : "Daily oral PrEP"
+  },
+  {
+    "code" : "other",
+    "display" : "Other PrEP dosing type"
+  }]
+}

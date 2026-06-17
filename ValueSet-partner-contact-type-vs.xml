@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="partner-contact-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet partner-contact-type-vs</b></p><a name="partner-contact-type-vs"> </a><a name="hcpartner-contact-type-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-partner-contact-type-cs.html"><code>http://fhir.et/hiv/CodeSystem/partner-contact-type-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/hiv/ValueSet/partner-contact-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="PartnerContactTypeVS"/>
+  <title value="Partner Contact Type ValueSet"/>
+  <status value="draft"/>
+  <date value="2026-06-17T10:46:20+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="Value set of Partner Contact Type values."/>
+  <compose>
+    <include>
+      <system value="http://fhir.et/hiv/CodeSystem/partner-contact-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

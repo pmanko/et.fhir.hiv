@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - Ethiopia HIV IG (sandbox demo subset) v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Ethiopia HIV IG (sandbox demo subset)</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Ethiopia HIV IG (sandbox demo subset) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://fhir.et/hiv/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-art-start-date.html"
+                  title="StructureDefinition/art-start-date">ART Start Date</a>
+            </td>
+            <td>
+<p>Date when antiretroviral therapy was initiated</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-services-accepted.html"
+                  title="StructureDefinition/partner-services-accepted">Accepted social network-based/partner services</a>
+            </td>
+            <td>
+<p>Indicates whether the client accepted partner or social network-based services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-contacts-count.html"
+                  title="StructureDefinition/partner-contacts-count">Count of contacts or partners given for social network/partner services</a>
+            </td>
+            <td>
+<p>Number of contacts or partners elicited for partner notification or social network-based services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-currently-on-prep.html"
+                  title="StructureDefinition/currently-on-prep">CurrentlyOnPrEP</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-sent-date.html"
+                  title="StructureDefinition/hiv-test-sent-date">Date HIV Test Sent</a>
+            </td>
+            <td>
+<p>Date when the HIV test specimen was sent to the laboratory</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-first-positive-test-date.html"
+                  title="StructureDefinition/hiv-first-positive-test-date">Date of First HIV Positive Test</a>
+            </td>
+            <td>
+<p>Date of first positive test indicative of HIV diagnosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-exposure-source-observation.html"
+                  title="StructureDefinition/exposure-source-observation">ExposureSourceObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-medication-dispense.html"
+                  title="StructureDefinition/hiv-medication-dispense">HIV ART Medication Dispense</a>
+            </td>
+            <td>
+<p>Dispensing of antiretroviral medication in the national HIV program.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-medication-statement.html"
+                  title="StructureDefinition/hiv-medication-statement">HIV ART Medication Statement</a>
+            </td>
+            <td>
+<p>A statement that an HIV-program patient is (or was) on a given antiretroviral therapy regimen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-assay-number-observation.html"
+                  title="StructureDefinition/hiv-assay-number-observation">HIV Assay Number</a>
+            </td>
+            <td>
+<p>Assay number used in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-client-informed-observation.html"
+                  title="StructureDefinition/hiv-client-informed-observation">HIV Client Informed of Result</a>
+            </td>
+            <td>
+<p>Indicates whether the client has been informed of their HIV test result.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-diagnosis-date.html"
+                  title="StructureDefinition/hiv-diagnosis-date">HIV Diagnosis Date</a>
+            </td>
+            <td>
+<p>Date when HIV diagnosis was established</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-diagnosis-facility-observation.html"
+                  title="StructureDefinition/hiv-diagnosis-facility-observation">HIV Diagnosis Facility</a>
+            </td>
+            <td>
+<p>Facility where the client received an HIV-positive diagnosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-encounter.html"
+                  title="StructureDefinition/hiv-encounter">HIV Encounter</a>
+            </td>
+            <td>
+<p>An encounter within the national HIV program (testing, treatment, or follow-up visit) for an HIV-program patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-exposure-observation.html"
+                  title="StructureDefinition/hiv-exposure-observation">HIV Exposure Ways Observation</a>
+            </td>
+            <td>
+<p>Records ways in which the client was exposed to HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-partner-contact.html"
+                  title="StructureDefinition/hiv-partner-contact">HIV Partner / Contact Person</a>
+            </td>
+            <td>
+<p>Represents a partner or contact identified during HIV testing services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-document-bundle.html"
+                  title="StructureDefinition/hiv-document-bundle">HIV Program Document Bundle</a>
+            </td>
+            <td>
+<p>A FHIR <strong>document</strong> bundle (not a transaction) used to submit a coherent, point-in-time
+HIV-program record — a clinical document whose first entry is an HIVDocumentComposition that
+indexes the patient, encounter, dispenses and observations that follow.</p>
+
+<p>Because <code class="language-plaintext highlighter-rouge">type = document</code>, base FHIR enforces that the first entry is a Composition, that every
+entry carries a <code class="language-plaintext highlighter-rouge">fullUrl</code>, and that the bundle has an identifier and timestamp (invariants
+bdl-9/10/11). This profile pins those expectations explicitly for the HIV program.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-document-composition.html"
+                  title="StructureDefinition/hiv-document-composition">HIV Program Document Composition</a>
+            </td>
+            <td>
+<p>Header/index for an HIVDocumentBundle: identifies the subject and the clinical content that follows.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-HIVPatient.html"
+                  title="StructureDefinition/HIVPatient">HIV Program Patient</a>
+            </td>
+            <td>
+<p>Patient profile for individuals enrolled in the national HIV program</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-questionnaire-response.html"
+                  title="StructureDefinition/hiv-questionnaire-response">HIV Program QuestionnaireResponse</a>
+            </td>
+            <td>
+<p>A completed questionnaire in the national HIV program (e.g. ART eligibility / intake screening) for an HIV-program patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-retest-risk-assessment.html"
+                  title="StructureDefinition/hiv-retest-risk-assessment">HIV Retest and Risk Assessment</a>
+            </td>
+            <td>
+<p>Captures whether HIV retesting prior to ART initiation was conducted and whether the client is at elevated risk for HIV acquisition</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-self-test-result.html"
+                  title="StructureDefinition/hiv-self-test-result">HIV Self-test Result</a>
+            </td>
+            <td>
+<p>HIV Self-test Result profile.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-serotype-observation.html"
+                  title="StructureDefinition/hiv-serotype-observation">HIV Serotype</a>
+            </td>
+            <td>
+<p>Type of HIV infection (HIV-1 or HIV-2)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-conducted-boolean.html"
+                  title="StructureDefinition/hiv-test-conducted-boolean">HIV Test Conducted (Boolean)</a>
+            </td>
+            <td>
+<p>Indicates whether an HIV test was conducted</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-ordered-boolean.html"
+                  title="StructureDefinition/hiv-test-ordered-boolean">HIV Test Ordered (Boolean)</a>
+            </td>
+            <td>
+<p>Indicates whether an HIV test was ordered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-type-observation.html"
+                  title="StructureDefinition/hiv-test-type-observation">HIV Test Type</a>
+            </td>
+            <td>
+<p>Type of HIV test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-testing-encounter.html"
+                  title="StructureDefinition/hiv-testing-encounter">HIV Testing Services Encounter</a>
+            </td>
+            <td>
+<p>HIV Testing Services Encounter.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-art-medication-request.html"
+                  title="StructureDefinition/hiv-art-medication-request">HIVARTMedicationRequest</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-adherence.html"
+                  title="StructureDefinition/hiv-adherence">HIVAdherenceObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-cd4.html"
+                  title="StructureDefinition/hiv-cd4">HIVCD4Observation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-careplan.html"
+                  title="StructureDefinition/hiv-careplan">HIVCarePlan</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-condition.html"
+                  title="StructureDefinition/hiv-condition">HIVCondition</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-consent.html"
+                  title="StructureDefinition/hiv-consent">HIVConsent</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-exposure-datetime.html"
+                  title="StructureDefinition/hiv-exposure-datetime">HIVExposureDateTime</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-followup-appointment.html"
+                  title="StructureDefinition/hiv-followup-appointment">HIVFollowUpAppointment</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-lab-report.html"
+                  title="StructureDefinition/hiv-lab-report">HIVLabReport</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-library.html"
+                  title="StructureDefinition/hiv-library">HIVLibrary</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-measure.html"
+                  title="StructureDefinition/hiv-measure">HIVMeasure</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-positive-confirmed-date.html"
+                  title="StructureDefinition/hiv-positive-confirmed-date">HIVPositiveConfirmedDateObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-positive-confirmed-site.html"
+                  title="StructureDefinition/hiv-positive-confirmed-site">HIVPositiveConfirmedSiteObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-status.html"
+                  title="StructureDefinition/hiv-status">HIVStatusObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-result.html"
+                  title="StructureDefinition/hiv-test-result">HIVTestResult</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-result-observation.html"
+                  title="StructureDefinition/hiv-test-result-observation">HIVTestResultObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-hts-request.html"
+                  title="StructureDefinition/hiv-hts-request">HIVTestingServiceRequest</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-transmission-route.html"
+                  title="StructureDefinition/hiv-transmission-route">HIVTransmissionRouteObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-self-test-history.html"
+                  title="StructureDefinition/hiv-self-test-history">History of HIV Self-Testing</a>
+            </td>
+            <td>
+<p>Indicates whether the client reported having used an HIV self-test before</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-key-population-type.html"
+                  title="StructureDefinition/key-population-type">Key Population Member Type</a>
+            </td>
+            <td>
+<p>Specifies the type of key population the client belongs to</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-key-population-membership.html"
+                  title="StructureDefinition/key-population-membership">Key Population Membership</a>
+            </td>
+            <td>
+<p>Indicates whether the client is a member of a key population with increased risk of HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-offered-vps-observation.html"
+                  title="StructureDefinition/offered-vps-observation">Offered Voluntary Partner Services</a>
+            </td>
+            <td>
+<p>Indicates whether voluntary partner services were offered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-services-offered.html"
+                  title="StructureDefinition/partner-services-offered">Offered social network-based/partner services</a>
+            </td>
+            <td>
+<p>Indicates whether partner or social network-based services were offered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-other-clinical-services.html"
+                  title="StructureDefinition/other-clinical-services">Other Clinical Services Offered</a>
+            </td>
+            <td>
+<p>Indicates other clinical services offered to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-other-support-services.html"
+                  title="StructureDefinition/other-support-services">Other Support Services</a>
+            </td>
+            <td>
+<p>Indicates other support services provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-status.html"
+                  title="StructureDefinition/partner-hiv-status">Partner HIV Status</a>
+            </td>
+            <td>
+<p>HIV status of the client's partner</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-risk-category.html"
+                  title="StructureDefinition/partner-risk-category">Partner High Risk Population Category</a>
+            </td>
+            <td>
+<p>Indicates whether the client's partner belongs to a high-risk population</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-notification-observation.html"
+                  title="StructureDefinition/partner-notification-observation">Partner Notification and Disclosure Status</a>
+            </td>
+            <td>
+<p>Captures HIV status disclosure and notification planning for partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-conducted.html"
+                  title="StructureDefinition/partner-hiv-test-conducted">PartnerHIVTestConductedObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-date.html"
+                  title="StructureDefinition/partner-hiv-test-date">PartnerHIVTestDateObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-ordered.html"
+                  title="StructureDefinition/partner-hiv-test-ordered">PartnerHIVTestOrderedObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-result.html"
+                  title="StructureDefinition/partner-hiv-test-result">PartnerHIVTestResultObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-on-art.html"
+                  title="StructureDefinition/partner-on-art">PartnerOnARTObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-viral-suppression.html"
+                  title="StructureDefinition/partner-viral-suppression">PartnerViralSuppressionObservation</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-encounter.html"
+                  title="StructureDefinition/prep-encounter">PrEP Encounter</a>
+            </td>
+            <td>
+<p>Encounter profile for PrEP/PEP services.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-visit-observation.html"
+                  title="StructureDefinition/prep-visit-observation">PrEP Visit Observation</a>
+            </td>
+            <td>
+<p>Indicates attendance of a scheduled PrEP visit by interval.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-dosing-type.html"
+                  title="StructureDefinition/prep-dosing-type">PrEPDosingType</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-prevention-services.html"
+                  title="StructureDefinition/hiv-prevention-services">Prevention Services Offered and Referrals</a>
+            </td>
+            <td>
+<p>Indicates HIV prevention services offered and referrals provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-suspected-hiv-exposure.html"
+                  title="StructureDefinition/suspected-hiv-exposure">Suspected HIV Exposure (Boolean)</a>
+            </td>
+            <td>
+<p>Indicates whether the client is reported to have had suspected exposure to HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-suspected-hiv-exposure-observation.html"
+                  title="StructureDefinition/suspected-hiv-exposure-observation">Suspected HIV Exposure Observation</a>
+            </td>
+            <td>
+<p>Indicates contact with and suspected exposure to HIV.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-visit-reason.html"
+                  title="StructureDefinition/prep-visit-reason">Reason for PrEP Visit</a>
+            </td>
+            <td>
+<p>Reason for PrEP Visit extension.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-adherence-vs.html" title="ValueSet/hiv-adherence-vs">ART Adherence Value Set</a>
+            </td>
+            <td>
+<p>Value set for documenting ART adherence</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-arv-regimen-vs.html" title="ValueSet/arv-regimen-vs">ART Regimen Value Set</a>
+            </td>
+            <td>
+<p>Antiretroviral therapy regimens dispensed in the Ethiopia HIV program.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-assay-number-vs.html"
+                  title="ValueSet/hiv-assay-number-vs">HIV Assay Number</a>
+            </td>
+            <td>
+<p>Permitted assay numbers in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-assay-result-vs.html"
+                  title="ValueSet/hiv-assay-result-vs">HIV Assay Result</a>
+            </td>
+            <td>
+<p>Allowed HIV assay results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-condition-vs.html" title="ValueSet/hiv-condition-vs">HIV Condition Value Set</a>
+            </td>
+            <td>
+<p>Value set representing HIV-related conditions and statuses</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-prevention-services-vs.html"
+                  title="ValueSet/hiv-prevention-services-vs">HIV Prevention Services and Referrals</a>
+            </td>
+            <td>
+<p>Value set of HIV Prevention Services and Referrals values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-self-test-result-vs.html"
+                  title="ValueSet/hiv-self-test-result-vs">HIV Self-test Result ValueSet</a>
+            </td>
+            <td>
+<p>Value set of HIV Self-test Result values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-serotype-vs.html" title="ValueSet/hiv-serotype-vs">HIV Serotype</a>
+            </td>
+            <td>
+<p>HIV serotype classification</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-test-type-vs.html" title="ValueSet/hiv-test-type-vs">HIV Test Type</a>
+            </td>
+            <td>
+<p>Permitted HIV test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-testing-entry-point-vs.html"
+                  title="ValueSet/hiv-testing-entry-point-vs">HIV Testing Entry Point ValueSet</a>
+            </td>
+            <td>
+<p>ValueSet of HIV Testing Service entry points</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-testing-reason-vs.html"
+                  title="ValueSet/hiv-testing-reason-vs">HIV Testing Reason ValueSet</a>
+            </td>
+            <td>
+<p>Reasons for HIV testing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-status-vs.html" title="ValueSet/hiv-status-vs">HIVStatusVS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-test-result-vs.html"
+                  title="ValueSet/hiv-test-result-vs">HIVTestResultVS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-transmission-route-vs.html"
+                  title="ValueSet/hiv-transmission-route-vs">HIVTransmissionRouteVS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hts-service-vs.html" title="ValueSet/hts-service-vs">HTS Service Types ValueSet</a>
+            </td>
+            <td>
+<p>Value set for HTS service delivery types.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-key-population-type-vs.html"
+                  title="ValueSet/key-population-type-vs">Key Population Type ValueSet</a>
+            </td>
+            <td>
+<p>Value set of Key Population Type values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-other-clinical-services-vs.html"
+                  title="ValueSet/other-clinical-services-vs">Other Clinical Services Offered</a>
+            </td>
+            <td>
+<p>Value set of Other Clinical Services Offered values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-other-support-services-vs.html"
+                  title="ValueSet/other-support-services-vs">Other Support Services</a>
+            </td>
+            <td>
+<p>Value set of Other Support Services values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-contact-type-vs.html"
+                  title="ValueSet/partner-contact-type-vs">Partner Contact Type ValueSet</a>
+            </td>
+            <td>
+<p>Value set of Partner Contact Type values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-risk-category-vs.html"
+                  title="ValueSet/partner-risk-category-vs">Partner High Risk Category ValueSet</a>
+            </td>
+            <td>
+<p>Value set of Partner High Risk Category values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-services-referral-vs.html"
+                  title="ValueSet/partner-services-referral-vs">Partner Services Referral ValueSet</a>
+            </td>
+            <td>
+<p>Value set of Partner Services Referral values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-dosing-type-vs.html"
+                  title="ValueSet/prep-dosing-type-vs">PrEP Dosing Type ValueSet</a>
+            </td>
+            <td>
+<p>Value set of PrEP Dosing Type values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-visit-interval-vs.html"
+                  title="ValueSet/prep-visit-interval-vs">PrEP Visit Interval ValueSet</a>
+            </td>
+            <td>
+<p>Value set of PrEP Visit Interval values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-visit-reason-vs.html"
+                  title="ValueSet/prep-visit-reason-vs">PrEP Visit Reason ValueSet</a>
+            </td>
+            <td>
+<p>Value set of PrEP Visit Reason values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-exposure-source-vs.html"
+                  title="ValueSet/exposure-source-vs">Source of Exposure ValueSet</a>
+            </td>
+            <td>
+<p>Value set of Source of Exposure values.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-exposure-ways-vs.html"
+                  title="ValueSet/hiv-exposure-ways-vs">Ways of HIV Exposure</a>
+            </td>
+            <td>
+<p>Ways in which the client was exposed to HIV</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-arv-regimen-cs.html" title="CodeSystem/arv-regimen-cs">ART Regimen Code System</a>
+            </td>
+            <td>
+<p>National antiretroviral therapy (ART) regimen codes used by the Ethiopia HIV program, mirroring the codes recorded on the national ART register. Demo subset — to be expanded.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-exposure-source-cs.html"
+                  title="CodeSystem/exposure-source-cs">ExposureSourceCS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-adherence-cs.html"
+                  title="CodeSystem/hiv-adherence-cs">HIV ART Adherence Code System</a>
+            </td>
+            <td>
+<p>Codes representing the client's adherence to ART treatment</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-assay-number-cs.html"
+                  title="CodeSystem/hiv-assay-number-cs">HIV Assay Number</a>
+            </td>
+            <td>
+<p>Assay sequence in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-assay-result-cs.html"
+                  title="CodeSystem/hiv-assay-result-cs">HIV Assay Result</a>
+            </td>
+            <td>
+<p>Result of HIV assay</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-condition-cs.html"
+                  title="CodeSystem/hiv-condition-cs">HIV Condition Code System</a>
+            </td>
+            <td>
+<p>Clinical HIV-related conditions and diagnoses</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-exposure-ways-cs.html"
+                  title="CodeSystem/hiv-exposure-ways-cs">HIV Exposure Ways CodeSystem</a>
+            </td>
+            <td>
+<p>Codes representing possible HIV exposure routes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-prevention-services-cs.html"
+                  title="CodeSystem/hiv-prevention-services-cs">HIV Prevention Services and Referrals</a>
+            </td>
+            <td>
+<p>Prevention services offered and referrals provided</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-self-test-result-cs.html"
+                  title="CodeSystem/hiv-self-test-result-cs">HIV Self-test Result Codes</a>
+            </td>
+            <td>
+<p>Code system of HIV Self-test Result codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-serotype-cs.html"
+                  title="CodeSystem/hiv-serotype-cs">HIV Serotype Codes</a>
+            </td>
+            <td>
+<p>Codes for HIV-1 and HIV-2</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-test-type-cs.html"
+                  title="CodeSystem/hiv-test-type-cs">HIV Test Type Codes</a>
+            </td>
+            <td>
+<p>Types of HIV tests</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-testing-entry-point-cs.html"
+                  title="CodeSystem/hiv-testing-entry-point-cs">HIV Testing Entry Point CodeSystem</a>
+            </td>
+            <td>
+<p>Defines entry points for HIV Testing Services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-testing-reason-cs.html"
+                  title="CodeSystem/hiv-testing-reason-cs">HIV Testing Reason CodeSystem</a>
+            </td>
+            <td>
+<p>Code system of HIV Testing Reason codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-community-entry-point-cs.html"
+                  title="CodeSystem/community-entry-point-cs">HIV Testing for community entry point CodeSystem</a>
+            </td>
+            <td>
+<p>Defines entry points for community entry point</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-facility-entry-point-cs.html"
+                  title="CodeSystem/facility-entry-point-cs">HIV Testing for facility entry point CodeSystem</a>
+            </td>
+            <td>
+<p>Defines entry points for facility entry point</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-status-cs.html" title="CodeSystem/hiv-status-cs">HIVStatusCS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-test-result-cs.html"
+                  title="CodeSystem/hiv-test-result-cs">HIVTestResultCS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-transmission-route-cs.html"
+                  title="CodeSystem/hiv-transmission-route-cs">HIVTransmissionRouteCS</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hts-service-cs.html" title="CodeSystem/hts-service-cs">HTS Service CodeSystem</a>
+            </td>
+            <td>
+<p>Codes for HIV Testing Services (HTS) service types.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-key-population-type-cs.html"
+                  title="CodeSystem/key-population-type-cs">Key Population Type Codes</a>
+            </td>
+            <td>
+<p>Code system of Key Population Type codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-other-clinical-services-cs.html"
+                  title="CodeSystem/other-clinical-services-cs">Other Clinical Services Offered</a>
+            </td>
+            <td>
+<p>Other clinical services offered to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-other-support-services-cs.html"
+                  title="CodeSystem/other-support-services-cs">Other Support Services</a>
+            </td>
+            <td>
+<p>Support services provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-contact-type-cs.html"
+                  title="CodeSystem/partner-contact-type-cs">Partner Contact Type Codes</a>
+            </td>
+            <td>
+<p>Types of contacts or partners for partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-hiv-status-cs.html"
+                  title="CodeSystem/partner-hiv-status-cs">Partner HIV Status Codes</a>
+            </td>
+            <td>
+<p>Code system of Partner HIV Status codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-risk-category-cs.html"
+                  title="CodeSystem/partner-risk-category-cs">Partner High Risk Category Codes</a>
+            </td>
+            <td>
+<p>Code system of Partner High Risk Category codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-services-referral-cs.html"
+                  title="CodeSystem/partner-services-referral-cs">Partner Services Referral Codes</a>
+            </td>
+            <td>
+<p>Codes for referral through partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-dosing-type-cs.html"
+                  title="CodeSystem/prep-dosing-type-cs">PrEP Dosing Type CodeSystem</a>
+            </td>
+            <td>
+<p>Code system of PrEP Dosing Type codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-visit-interval-cs.html"
+                  title="CodeSystem/prep-visit-interval-cs">PrEP Visit Interval CodeSystem</a>
+            </td>
+            <td>
+<p>Represents scheduled PrEP visit intervals.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-visit-reason-cs.html"
+                  title="CodeSystem/prep-visit-reason-cs">PrEP Visit Reason CodeSystem</a>
+            </td>
+            <td>
+<p>Codes representing reasons for PrEP/PEP visits.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="">MOH Ethiopia</a>.  Package et.fhir.hiv#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 17, 2026 10:46+0000">2026-06-17</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

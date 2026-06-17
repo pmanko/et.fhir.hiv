@@ -1,0 +1,30 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "partner-risk-category-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem partner-risk-category-cs</b></p><a name=\"partner-risk-category-cs\"> </a><a name=\"hcpartner-risk-category-cs\"> </a><p>This  code system <code>http://fhir.et/hiv/CodeSystem/partner-risk-category-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sex-worker<a name=\"partner-risk-category-cs-sex-worker\"> </a></td><td>Client's partner is a sex worker</td></tr><tr><td style=\"white-space:nowrap\">pwid<a name=\"partner-risk-category-cs-pwid\"> </a></td><td>Client's partner is a person who injects drugs</td></tr><tr><td style=\"white-space:nowrap\">prison<a name=\"partner-risk-category-cs-prison\"> </a></td><td>Client's partner lives in a prison or other closed setting</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/hiv/CodeSystem/partner-risk-category-cs",
+  "version" : "0.1.0",
+  "name" : "PartnerRiskCategoryCS",
+  "title" : "Partner High Risk Category Codes",
+  "status" : "draft",
+  "date" : "2026-06-17T10:46:20+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Code system of Partner High Risk Category codes.",
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "sex-worker",
+    "display" : "Client's partner is a sex worker"
+  },
+  {
+    "code" : "pwid",
+    "display" : "Client's partner is a person who injects drugs"
+  },
+  {
+    "code" : "prison",
+    "display" : "Client's partner lives in a prison or other closed setting"
+  }]
+}

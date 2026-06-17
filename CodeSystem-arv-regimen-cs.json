@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "arv-regimen-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem arv-regimen-cs</b></p><a name=\"arv-regimen-cs\"> </a><a name=\"hcarv-regimen-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/hiv/CodeSystem/arv-regimen-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1a<a name=\"arv-regimen-cs-1a\"> </a></td><td>d4T-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1c<a name=\"arv-regimen-cs-1c\"> </a></td><td>AZT-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1d<a name=\"arv-regimen-cs-1d\"> </a></td><td>AZT-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1e<a name=\"arv-regimen-cs-1e\"> </a></td><td>TDF-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1f<a name=\"arv-regimen-cs-1f\"> </a></td><td>TDF-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1g<a name=\"arv-regimen-cs-1g\"> </a></td><td>ABC-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1j<a name=\"arv-regimen-cs-1j\"> </a></td><td>TDF-3TC-DTG</td></tr><tr><td style=\"white-space:nowrap\">2f<a name=\"arv-regimen-cs-2f\"> </a></td><td>AZT-3TC-ATV/r</td></tr><tr><td style=\"white-space:nowrap\">2h<a name=\"arv-regimen-cs-2h\"> </a></td><td>TDF-3TC-ATV/r</td></tr><tr><td style=\"white-space:nowrap\">2i<a name=\"arv-regimen-cs-2i\"> </a></td><td>ABC-3TC-LPV/r</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/hiv/CodeSystem/arv-regimen-cs",
+  "version" : "0.1.0",
+  "name" : "ARVRegimenCS",
+  "title" : "ART Regimen Code System",
+  "status" : "draft",
+  "date" : "2026-06-17T10:46:20+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "National antiretroviral therapy (ART) regimen codes used by the Ethiopia HIV program, mirroring the codes recorded on the national ART register. Demo subset — to be expanded.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "1a",
+    "display" : "d4T-3TC-NVP"
+  },
+  {
+    "code" : "1c",
+    "display" : "AZT-3TC-NVP"
+  },
+  {
+    "code" : "1d",
+    "display" : "AZT-3TC-EFV"
+  },
+  {
+    "code" : "1e",
+    "display" : "TDF-3TC-EFV"
+  },
+  {
+    "code" : "1f",
+    "display" : "TDF-3TC-NVP"
+  },
+  {
+    "code" : "1g",
+    "display" : "ABC-3TC-EFV"
+  },
+  {
+    "code" : "1j",
+    "display" : "TDF-3TC-DTG"
+  },
+  {
+    "code" : "2f",
+    "display" : "AZT-3TC-ATV/r"
+  },
+  {
+    "code" : "2h",
+    "display" : "TDF-3TC-ATV/r"
+  },
+  {
+    "code" : "2i",
+    "display" : "ABC-3TC-LPV/r"
+  }]
+}

@@ -1,0 +1,234 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/hiv/CodeSystem/arv-regimen-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ARVRegimenCS",
+    "title" : "ART Regimen Code System",
+    "description" : "National antiretroviral therapy (ART) regimen codes used by the Ethiopia HIV program, mirroring the codes recorded on the national ART register. Demo subset — to be expanded."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/community-entry-point-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "CommunityEntryPointCS",
+    "title" : "HIV Testing for community entry point CodeSystem",
+    "description" : "Defines entry points for community entry point"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/exposure-source-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ExposureSourceCS",
+    "title" : null,
+    "description" : ""
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/facility-entry-point-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "FacilityEntryPointCS",
+    "title" : "HIV Testing for facility entry point CodeSystem",
+    "description" : "Defines entry points for facility entry point"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-adherence-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAdherenceCS",
+    "title" : "HIV ART Adherence Code System",
+    "description" : "Codes representing the client's adherence to ART treatment"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-assay-number-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayNumberCS",
+    "title" : "HIV Assay Number",
+    "description" : "Assay sequence in HIV testing strategy"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-assay-result-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayResultCS",
+    "title" : "HIV Assay Result",
+    "description" : "Result of HIV assay"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-condition-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVConditionCS",
+    "title" : "HIV Condition Code System",
+    "description" : "Clinical HIV-related conditions and diagnoses"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-exposure-ways-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVExposureWaysCS",
+    "title" : "HIV Exposure Ways CodeSystem",
+    "description" : "Codes representing possible HIV exposure routes"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-prevention-services-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVPreventionServicesCS",
+    "title" : "HIV Prevention Services and Referrals",
+    "description" : "Prevention services offered and referrals provided"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-self-test-result-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVSelfTestResultCS",
+    "title" : "HIV Self-test Result Codes",
+    "description" : "Code system of HIV Self-test Result codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-serotype-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVSerotypeCS",
+    "title" : "HIV Serotype Codes",
+    "description" : "Codes for HIV-1 and HIV-2"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-status-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVStatusCS",
+    "title" : null,
+    "description" : ""
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-test-result-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVTestResultCS",
+    "title" : null,
+    "description" : ""
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-test-type-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVTestTypeCS",
+    "title" : "HIV Test Type Codes",
+    "description" : "Types of HIV tests"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-testing-entry-point-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingEntryPointCS",
+    "title" : "HIV Testing Entry Point CodeSystem",
+    "description" : "Defines entry points for HIV Testing Services"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-testing-reason-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingReasonCS",
+    "title" : "HIV Testing Reason CodeSystem",
+    "description" : "Code system of HIV Testing Reason codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hiv-transmission-route-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTransmissionRouteCS",
+    "title" : null,
+    "description" : ""
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/hts-service-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HTSServiceCS",
+    "title" : "HTS Service CodeSystem",
+    "description" : "Codes for HIV Testing Services (HTS) service types."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/key-population-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "KeyPopulationTypeCS",
+    "title" : "Key Population Type Codes",
+    "description" : "Code system of Key Population Type codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/other-clinical-services-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherClinicalServicesCS",
+    "title" : "Other Clinical Services Offered",
+    "description" : "Other clinical services offered to the client"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/other-support-services-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherSupportServicesCS",
+    "title" : "Other Support Services",
+    "description" : "Support services provided to the client"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/partner-contact-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerContactTypeCS",
+    "title" : "Partner Contact Type Codes",
+    "description" : "Types of contacts or partners for partner services"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/partner-hiv-status-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerHIVStatusCS",
+    "title" : "Partner HIV Status Codes",
+    "description" : "Code system of Partner HIV Status codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/partner-risk-category-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerRiskCategoryCS",
+    "title" : "Partner High Risk Category Codes",
+    "description" : "Code system of Partner High Risk Category codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/partner-services-referral-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerServicesReferralCS",
+    "title" : "Partner Services Referral Codes",
+    "description" : "Codes for referral through partner services"
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/prep-dosing-type-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PrEPDosingTypeCS",
+    "title" : "PrEP Dosing Type CodeSystem",
+    "description" : "Code system of PrEP Dosing Type codes."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/prep-visit-interval-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "PrepVisitIntervalCS",
+    "title" : "PrEP Visit Interval CodeSystem",
+    "description" : "Represents scheduled PrEP visit intervals."
+  },
+  {
+    "url" : "http://fhir.et/hiv/CodeSystem/prep-visit-reason-cs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "PrepVisitReasonCS",
+    "title" : "PrEP Visit Reason CodeSystem",
+    "description" : "Codes representing reasons for PrEP/PEP visits."
+  }]
+}

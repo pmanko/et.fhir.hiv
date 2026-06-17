@@ -1,0 +1,510 @@
+ETHIV : Validation Results
+=========================================
+
+err = 0, warn = 211, info = 42
+$--
+Generated $--. FHIR version $-- for et.fhir.hiv#$-- (canonical = http://fhir.et/hiv)
+ Build Errors : 0 / 38 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-arv-regimen-cs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-community-entry-point-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-exposure-source-cs : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-facility-entry-point-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-adherence-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-assay-number-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-assay-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-condition-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-exposure-ways-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-prevention-services-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-self-test-result-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-serotype-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-status-cs : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-test-result-cs : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-test-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-testing-entry-point-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-testing-reason-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hiv-transmission-route-cs : 0 / 4 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-hts-service-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-key-population-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-other-clinical-services-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-other-support-services-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-partner-contact-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-partner-hiv-status-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-partner-risk-category-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-partner-services-referral-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-prep-dosing-type-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-prep-visit-interval-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-prep-visit-reason-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-et.fhir.hiv : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-HIVPatient : 0 / 3 / 8
+ /github/workspace/fsh-generated/resources/StructureDefinition-art-start-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-currently-on-prep : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-exposure-source-observation : 0 / 1 / 3
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-adherence : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-art-medication-request : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-assay-number-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-careplan : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-cd4 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-client-informed-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-condition : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-consent : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-diagnosis-facility-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-document-bundle : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-document-composition : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-encounter : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-exposure-datetime : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-exposure-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-first-positive-test-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-followup-appointment : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-hts-request : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-lab-report : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-library : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-measure : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-medication-dispense : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-medication-statement : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-partner-contact : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-site : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-prevention-services : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-questionnaire-response : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-retest-risk-assessment : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-self-test-history : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-self-test-result : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-serotype-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-status : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-conducted-boolean : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-ordered-boolean : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-result : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-result-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-sent-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-test-type-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-testing-encounter : 0 / 2 / 4
+ /github/workspace/fsh-generated/resources/StructureDefinition-hiv-transmission-route : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-key-population-membership : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-key-population-type : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-offered-vps-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-other-clinical-services : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-other-support-services : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-contacts-count : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-hiv-status : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-hiv-test-conducted : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-hiv-test-date : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-hiv-test-ordered : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-hiv-test-result : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-notification-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-on-art : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-risk-category : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-services-accepted : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-services-offered : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-partner-viral-suppression : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-prep-dosing-type : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-prep-encounter : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-prep-visit-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-prep-visit-reason : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-suspected-hiv-exposure : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-suspected-hiv-exposure-observation : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-arv-regimen-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-exposure-source-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-adherence-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-assay-number-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-assay-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-condition-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-exposure-ways-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-prevention-services-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-self-test-result-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-serotype-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-status-vs : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-test-result-vs : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-test-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-testing-entry-point-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-testing-reason-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hiv-transmission-route-vs : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-hts-service-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-key-population-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-other-clinical-services-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-other-support-services-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-partner-contact-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-partner-risk-category-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-partner-services-referral-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-prep-dosing-type-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-prep-visit-interval-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-prep-visit-reason-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/currently-on-prep.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/exposure-source-observation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-art-medication-request.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-adherence.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-cd4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-careplan.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-consent.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-exposure-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-followup-appointment.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-lab-report.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-library.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-measure.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-positive-confirmed-date.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-positive-confirmed-site.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-test-result.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-test-result-observation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-hts-request.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-transmission-route.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-conducted.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-date.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-ordered.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-result.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-on-art.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-viral-suppression.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/prep-dosing-type.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-test-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-transmission-route-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/exposure-source-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-test-result-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-transmission-route-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-arv-regimen-cs.json ==
+WARNING: CodeSystem/arv-regimen-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-community-entry-point-cs.json ==
+INFORMATION: CodeSystem/community-entry-point-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/community-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/community-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-exposure-source-cs.json ==
+INFORMATION: CodeSystem/exposure-source-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-facility-entry-point-cs.json ==
+INFORMATION: CodeSystem/facility-entry-point-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/facility-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/facility-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-adherence-cs.json ==
+INFORMATION: CodeSystem/hiv-adherence-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-adherence-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-adherence-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-assay-number-cs.json ==
+INFORMATION: CodeSystem/hiv-assay-number-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-assay-number-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-assay-number-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-assay-result-cs.json ==
+INFORMATION: CodeSystem/hiv-assay-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-assay-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-assay-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-condition-cs.json ==
+INFORMATION: CodeSystem/hiv-condition-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-condition-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-condition-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-exposure-ways-cs.json ==
+INFORMATION: CodeSystem/hiv-exposure-ways-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-exposure-ways-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-exposure-ways-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-prevention-services-cs.json ==
+INFORMATION: CodeSystem/hiv-prevention-services-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-prevention-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-prevention-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-self-test-result-cs.json ==
+INFORMATION: CodeSystem/hiv-self-test-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-self-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-self-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-serotype-cs.json ==
+INFORMATION: CodeSystem/hiv-serotype-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-serotype-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-serotype-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-status-cs.json ==
+INFORMATION: CodeSystem/hiv-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-test-result-cs.json ==
+INFORMATION: CodeSystem/hiv-test-result-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-test-type-cs.json ==
+INFORMATION: CodeSystem/hiv-test-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-testing-entry-point-cs.json ==
+INFORMATION: CodeSystem/hiv-testing-entry-point-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-testing-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-testing-entry-point-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-testing-reason-cs.json ==
+INFORMATION: CodeSystem/hiv-testing-reason-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-testing-reason-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-testing-reason-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-transmission-route-cs.json ==
+INFORMATION: CodeSystem/hiv-transmission-route-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hts-service-cs.json ==
+INFORMATION: CodeSystem/hts-service-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/hts-service-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/hts-service-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-key-population-type-cs.json ==
+INFORMATION: CodeSystem/key-population-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/key-population-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/key-population-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-other-clinical-services-cs.json ==
+INFORMATION: CodeSystem/other-clinical-services-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/other-clinical-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/other-clinical-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-other-support-services-cs.json ==
+INFORMATION: CodeSystem/other-support-services-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/other-support-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/other-support-services-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-contact-type-cs.json ==
+INFORMATION: CodeSystem/partner-contact-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/partner-contact-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/partner-contact-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-hiv-status-cs.json ==
+INFORMATION: CodeSystem/partner-hiv-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/partner-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/partner-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-risk-category-cs.json ==
+INFORMATION: CodeSystem/partner-risk-category-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/partner-risk-category-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/partner-risk-category-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-services-referral-cs.json ==
+INFORMATION: CodeSystem/partner-services-referral-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/partner-services-referral-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/partner-services-referral-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-prep-dosing-type-cs.json ==
+INFORMATION: CodeSystem/prep-dosing-type-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/prep-dosing-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/prep-dosing-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-prep-visit-interval-cs.json ==
+INFORMATION: CodeSystem/prep-visit-interval-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/prep-visit-interval-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/prep-visit-interval-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-prep-visit-reason-cs.json ==
+INFORMATION: CodeSystem/prep-visit-reason-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/prep-visit-reason-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/prep-visit-reason-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-et.fhir.hiv.json ==
+== fsh-generated/resources/StructureDefinition-HIVPatient.json ==
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-cachment-area.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/cachment-area' is not a widely supported protocol and should be checked
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-FPFollowUpMsgConsent.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/FPFollowUpMsgConsent' is not a widely supported protocol and should be checked
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-consent-to-be-contacted.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/consent-to-be-contacted' is not a widely supported protocol and should be checked
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[73].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+WARNING: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[117].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0131'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0131' to 'http://terminology.hl7.org/ValueSet/v2-0131|3.0.0'
+WARNING: StructureDefinition/HIVPatient: StructureDefinition.differential.element[9].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0131'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0131' to 'http://terminology.hl7.org/ValueSet/v2-0131|3.0.0'
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[25].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[78].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/HIVPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-art-start-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/art-start-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-currently-on-prep.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/currently-on-prep'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-exposure-source-observation.json ==
+INFORMATION: StructureDefinition/exposure-source-observation: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://fhir.et/hiv/CodeSystem/exposure-source-cs|0.1.0
+INFORMATION: StructureDefinition/exposure-source-observation: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept): Reference to draft CodeSystem http://fhir.et/hiv/CodeSystem/exposure-source-cs|0.1.0
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/exposure-source-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-adherence.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-adherence'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-art-medication-request.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-art-medication-request'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-assay-number-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-assay-number-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-careplan.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-careplan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-cd4.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-cd4'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-client-informed-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-client-informed-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-condition.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-consent.json ==
+WARNING: StructureDefinition/hiv-consent: StructureDefinition.snapshot.element[46].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.1.0', found versions: 3.0.0 (from hl7.terminology#5.5.0), 3.1.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' to 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|3.1.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-consent'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-diagnosis-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-diagnosis-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-diagnosis-facility-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-diagnosis-facility-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-document-bundle.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-document-bundle'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-document-composition.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-document-composition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-encounter.json ==
+WARNING: StructureDefinition/hiv-encounter: StructureDefinition.snapshot.element[57].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0092'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0092' to 'http://terminology.hl7.org/ValueSet/v2-0092|3.0.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-exposure-datetime.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-exposure-datetime'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-exposure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-exposure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-first-positive-test-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-first-positive-test-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-followup-appointment.json ==
+WARNING: StructureDefinition/hiv-followup-appointment: StructureDefinition.snapshot.element[15].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0276'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0276' to 'http://terminology.hl7.org/ValueSet/v2-0276|3.0.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-followup-appointment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-hts-request.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-hts-request'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-lab-report.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-lab-report'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-library.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-library'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-measure.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-measure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-medication-dispense.json ==
+INFORMATION: StructureDefinition/hiv-medication-dispense: StructureDefinition.snapshot.element[29].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-medication-dispense'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-medication-statement.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-medication-statement'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-partner-contact.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-partner-contact'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-positive-confirmed-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-site.json ==
+INFORMATION: StructureDefinition/hiv-positive-confirmed-site: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-confirmed-site.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/confirmed-site' is not a widely supported protocol and should be checked
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-positive-confirmed-site'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-prevention-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-prevention-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-questionnaire-response.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-questionnaire-response'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-retest-risk-assessment.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-retest-risk-assessment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-self-test-history.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-self-test-history'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-self-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-self-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-serotype-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-serotype-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-status.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-conducted-boolean.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-conducted-boolean'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-ordered-boolean.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-ordered-boolean'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-sent-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-sent-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-type-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-testing-encounter.json ==
+INFORMATION: StructureDefinition/hiv-testing-encounter: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-partner-services-referral.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/partner-services-referral' is not a widely supported protocol and should be checked
+INFORMATION: StructureDefinition/hiv-testing-encounter: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/StructureDefinition-community-entry-point.html' at 'div/table/tr/td/a' for 'http://fhir.et/surveillance/StructureDefinition/community-entry-point' is not a widely supported protocol and should be checked
+INFORMATION: StructureDefinition/hiv-testing-encounter: StructureDefinition.text.div: Hyperlink scheme 'file' in 'file:///github/workspace/output/ValueSet-community-entry-point-vs.html' at 'div/table/tr/td/a' for 'community Entry Point ValueSet' is not a widely supported protocol and should be checked
+WARNING: StructureDefinition/hiv-testing-encounter: StructureDefinition.snapshot.element[64].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0092'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0092' to 'http://terminology.hl7.org/ValueSet/v2-0092|3.0.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-testing-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-transmission-route.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/hiv-transmission-route'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-key-population-membership.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/key-population-membership'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-key-population-type.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/key-population-type'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-offered-vps-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/offered-vps-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-other-clinical-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/other-clinical-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-other-support-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/other-support-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-contacts-count.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-contacts-count'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-status.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-hiv-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-conducted.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-hiv-test-conducted'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-hiv-test-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-ordered.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-hiv-test-ordered'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-hiv-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-notification-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-notification-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-on-art.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-on-art'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-risk-category.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-risk-category'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-accepted.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-services-accepted'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-offered.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-services-offered'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-viral-suppression.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/partner-viral-suppression'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-dosing-type.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/prep-dosing-type'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-encounter.json ==
+WARNING: StructureDefinition/prep-encounter: StructureDefinition.snapshot.element[58].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v2-0092'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0 (from hl7.terminology.r4#6.5.0), 3.0.0 (from hl7.terminology.r4#7.2.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v2-0092' to 'http://terminology.hl7.org/ValueSet/v2-0092|3.0.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/prep-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-visit-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/prep-visit-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-visit-reason.json ==
+WARNING: StructureDefinition/prep-visit-reason: StructureDefinition.context[0]: Review the extension type for prep-visit-reason: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/prep-visit-reason'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-suspected-hiv-exposure.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/suspected-hiv-exposure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-suspected-hiv-exposure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/hiv/StructureDefinition/suspected-hiv-exposure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-arv-regimen-vs.json ==
+WARNING: ValueSet/arv-regimen-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-exposure-source-vs.json ==
+WARNING: ValueSet/exposure-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-adherence-vs.json ==
+WARNING: ValueSet/hiv-adherence-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-assay-number-vs.json ==
+WARNING: ValueSet/hiv-assay-number-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-assay-result-vs.json ==
+WARNING: ValueSet/hiv-assay-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-condition-vs.json ==
+WARNING: ValueSet/hiv-condition-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-exposure-ways-vs.json ==
+WARNING: ValueSet/hiv-exposure-ways-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-prevention-services-vs.json ==
+WARNING: ValueSet/hiv-prevention-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-self-test-result-vs.json ==
+WARNING: ValueSet/hiv-self-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-serotype-vs.json ==
+WARNING: ValueSet/hiv-serotype-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-status-vs.json ==
+WARNING: ValueSet/hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-test-result-vs.json ==
+WARNING: ValueSet/hiv-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/hiv-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-test-type-vs.json ==
+WARNING: ValueSet/hiv-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-testing-entry-point-vs.json ==
+WARNING: ValueSet/hiv-testing-entry-point-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-testing-reason-vs.json ==
+WARNING: ValueSet/hiv-testing-reason-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-transmission-route-vs.json ==
+WARNING: ValueSet/hiv-transmission-route-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-transmission-route-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/hiv-transmission-route-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hts-service-vs.json ==
+WARNING: ValueSet/hts-service-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-key-population-type-vs.json ==
+WARNING: ValueSet/key-population-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-other-clinical-services-vs.json ==
+WARNING: ValueSet/other-clinical-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-other-support-services-vs.json ==
+WARNING: ValueSet/other-support-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-contact-type-vs.json ==
+WARNING: ValueSet/partner-contact-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-risk-category-vs.json ==
+WARNING: ValueSet/partner-risk-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-services-referral-vs.json ==
+WARNING: ValueSet/partner-services-referral-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-dosing-type-vs.json ==
+WARNING: ValueSet/prep-dosing-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-visit-interval-vs.json ==
+WARNING: ValueSet/prep-visit-interval-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-visit-reason-vs.json ==
+WARNING: ValueSet/prep-visit-reason-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

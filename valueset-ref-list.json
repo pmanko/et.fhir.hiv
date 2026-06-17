@@ -1,0 +1,326 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/hiv/ValueSet/arv-regimen-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ARVRegimenVS",
+    "title" : "ART Regimen Value Set",
+    "description" : "Antiretroviral therapy regimens dispensed in the Ethiopia HIV program.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/arv-regimen-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-medication-dispense.html" : "HIV ART Medication Dispense",
+    "StructureDefinition-hiv-medication-statement.html" : "HIV ART Medication Statement"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/exposure-source-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "ExposureSourceVS",
+    "title" : "Source of Exposure ValueSet",
+    "description" : "Value set of Source of Exposure values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/exposure-source-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-exposure-source-observation.html" : "ExposureSourceObservation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-adherence-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "AdherenceVS",
+    "title" : "ART Adherence Value Set",
+    "description" : "Value set for documenting ART adherence",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-adherence-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-adherence.html" : "HIVAdherenceObservation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-assay-number-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayNumberVS",
+    "title" : "HIV Assay Number",
+    "description" : "Permitted assay numbers in HIV testing strategy",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-assay-number-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-assay-number-observation.html" : "HIV Assay Number"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-assay-result-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVAssayResultVS",
+    "title" : "HIV Assay Result",
+    "description" : "Allowed HIV assay results",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-assay-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-condition-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVConditionVS",
+    "title" : "HIV Condition Value Set",
+    "description" : "Value set representing HIV-related conditions and statuses",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-condition-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-condition.html" : "HIVCondition"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-exposure-ways-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVExposureWaysVS",
+    "title" : "Ways of HIV Exposure",
+    "description" : "Ways in which the client was exposed to HIV",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-exposure-ways-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-exposure-observation.html" : "HIV Exposure Ways Observation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-prevention-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVPreventionServicesVS",
+    "title" : "HIV Prevention Services and Referrals",
+    "description" : "Value set of HIV Prevention Services and Referrals values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-prevention-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-prevention-services.html" : "Prevention Services Offered and Referrals"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-self-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVSelfTestResultVS",
+    "title" : "HIV Self-test Result ValueSet",
+    "description" : "Value set of HIV Self-test Result values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-self-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-self-test-result.html" : "HIV Self-test Result"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-serotype-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVSerotypeVS",
+    "title" : "HIV Serotype",
+    "description" : "HIV serotype classification",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-serotype-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-serotype-observation.html" : "HIV Serotype"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-status-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVStatusVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-partner-hiv-status.html" : "Partner HIV Status",
+    "StructureDefinition-hiv-status.html" : "HIVStatusObservation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-test-result-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestResultVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-test-result-observation.html" : "HIVTestResultObservation",
+    "StructureDefinition-partner-hiv-test-result.html" : "PartnerHIVTestResultObservation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-test-type-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "HIVTestTypeVS",
+    "title" : "HIV Test Type",
+    "description" : "Permitted HIV test types",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-test-type-observation.html" : "HIV Test Type"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-testing-entry-point-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingEntryPointVS",
+    "title" : "HIV Testing Entry Point ValueSet",
+    "description" : "ValueSet of HIV Testing Service entry points",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-testing-entry-point-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-testing-encounter.html" : "HIV Testing Services Encounter"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-testing-reason-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTestingReasonVS",
+    "title" : "HIV Testing Reason ValueSet",
+    "description" : "Reasons for HIV testing",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-testing-reason-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-testing-encounter.html" : "HIV Testing Services Encounter"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hiv-transmission-route-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HIVTransmissionRouteVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hiv-transmission-route-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-transmission-route.html" : "HIVTransmissionRouteObservation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/hts-service-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HTSServiceVS",
+    "title" : "HTS Service Types ValueSet",
+    "description" : "Value set for HTS service delivery types.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/hts-service-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-hts-request.html" : "HIVTestingServiceRequest"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/key-population-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "KeyPopulationTypeVS",
+    "title" : "Key Population Type ValueSet",
+    "description" : "Value set of Key Population Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/key-population-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-key-population-type.html" : "Key Population Member Type"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/other-clinical-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherClinicalServicesVS",
+    "title" : "Other Clinical Services Offered",
+    "description" : "Value set of Other Clinical Services Offered values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/other-clinical-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-other-clinical-services.html" : "Other Clinical Services Offered"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/other-support-services-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "OtherSupportServicesVS",
+    "title" : "Other Support Services",
+    "description" : "Value set of Other Support Services values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/other-support-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-other-support-services.html" : "Other Support Services"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-contact-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerContactTypeVS",
+    "title" : "Partner Contact Type ValueSet",
+    "description" : "Value set of Partner Contact Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-contact-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-partner-contact.html" : "HIV Partner / Contact Person"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-risk-category-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerRiskCategoryVS",
+    "title" : "Partner High Risk Category ValueSet",
+    "description" : "Value set of Partner High Risk Category values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-risk-category-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-partner-risk-category.html" : "Partner High Risk Population Category"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/partner-services-referral-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PartnerServicesReferralVS",
+    "title" : "Partner Services Referral ValueSet",
+    "description" : "Value set of Partner Services Referral values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/partner-services-referral-cs"]
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-dosing-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PrEPDosingTypeVS",
+    "title" : "PrEP Dosing Type ValueSet",
+    "description" : "Value set of PrEP Dosing Type values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-dosing-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-dosing-type.html" : "PrEPDosingType"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-visit-interval-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "PrepVisitIntervalVS",
+    "title" : "PrEP Visit Interval ValueSet",
+    "description" : "Value set of PrEP Visit Interval values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-visit-interval-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-visit-observation.html" : "PrEP Visit Observation"
+  },
+  {
+    "url" : "http://fhir.et/hiv/ValueSet/prep-visit-reason-vs",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "PrepVisitReasonVS",
+    "title" : "PrEP Visit Reason ValueSet",
+    "description" : "Value set of PrEP Visit Reason values.",
+    "systems" : ["http://fhir.et/hiv/CodeSystem/prep-visit-reason-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-visit-reason.html" : "Reason for PrEP Visit",
+    "StructureDefinition-prep-encounter.html" : "PrEP Encounter"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0131",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSContactRole2",
+    "title" : "hl7VS-contactRole2",
+    "description" : "Concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Built on the updated code system.  Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.21.69"],
+    "sources" : ["2.16.840.1.113883.21.69"],
+    "uses" : {
+    },
+    "StructureDefinition-HIVPatient.html" : "HIV Program Patient"
+  }]
+}

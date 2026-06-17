@@ -1,0 +1,38 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "other-support-services-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem other-support-services-cs</b></p><a name=\"other-support-services-cs\"> </a><a name=\"hcother-support-services-cs\"> </a><p>This  code system <code>http://fhir.et/hiv/CodeSystem/other-support-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mental-health<a name=\"other-support-services-cs-mental-health\"> </a></td><td>Mental health services</td></tr><tr><td style=\"white-space:nowrap\">psychosocial<a name=\"other-support-services-cs-psychosocial\"> </a></td><td>Psychosocial counselling, support and treatment adherence counselling</td></tr><tr><td style=\"white-space:nowrap\">disclosure<a name=\"other-support-services-cs-disclosure\"> </a></td><td>Support for disclosure and partner services</td></tr><tr><td style=\"white-space:nowrap\">legal-social<a name=\"other-support-services-cs-legal-social\"> </a></td><td>Legal and social services</td></tr><tr><td style=\"white-space:nowrap\">gbv<a name=\"other-support-services-cs-gbv\"> </a></td><td>Services for responding to violence against women</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/hiv/CodeSystem/other-support-services-cs",
+  "version" : "0.1.0",
+  "name" : "OtherSupportServicesCS",
+  "title" : "Other Support Services",
+  "status" : "active",
+  "date" : "2026-06-17T10:46:20+00:00",
+  "publisher" : "MOH Ethiopia",
+  "description" : "Support services provided to the client",
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "mental-health",
+    "display" : "Mental health services"
+  },
+  {
+    "code" : "psychosocial",
+    "display" : "Psychosocial counselling, support and treatment adherence counselling"
+  },
+  {
+    "code" : "disclosure",
+    "display" : "Support for disclosure and partner services"
+  },
+  {
+    "code" : "legal-social",
+    "display" : "Legal and social services"
+  },
+  {
+    "code" : "gbv",
+    "display" : "Services for responding to violence against women"
+  }]
+}

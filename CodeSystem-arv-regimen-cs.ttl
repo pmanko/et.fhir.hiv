@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/hiv/CodeSystem/arv-regimen-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "arv-regimen-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem arv-regimen-cs</b></p><a name=\"arv-regimen-cs\"> </a><a name=\"hcarv-regimen-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/hiv/CodeSystem/arv-regimen-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1a<a name=\"arv-regimen-cs-1a\"> </a></td><td>d4T-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1c<a name=\"arv-regimen-cs-1c\"> </a></td><td>AZT-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1d<a name=\"arv-regimen-cs-1d\"> </a></td><td>AZT-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1e<a name=\"arv-regimen-cs-1e\"> </a></td><td>TDF-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1f<a name=\"arv-regimen-cs-1f\"> </a></td><td>TDF-3TC-NVP</td></tr><tr><td style=\"white-space:nowrap\">1g<a name=\"arv-regimen-cs-1g\"> </a></td><td>ABC-3TC-EFV</td></tr><tr><td style=\"white-space:nowrap\">1j<a name=\"arv-regimen-cs-1j\"> </a></td><td>TDF-3TC-DTG</td></tr><tr><td style=\"white-space:nowrap\">2f<a name=\"arv-regimen-cs-2f\"> </a></td><td>AZT-3TC-ATV/r</td></tr><tr><td style=\"white-space:nowrap\">2h<a name=\"arv-regimen-cs-2h\"> </a></td><td>TDF-3TC-ATV/r</td></tr><tr><td style=\"white-space:nowrap\">2i<a name=\"arv-regimen-cs-2i\"> </a></td><td>ABC-3TC-LPV/r</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/hiv/CodeSystem/arv-regimen-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ARVRegimenCS"] ; # 
+  fhir:title [ fhir:v "ART Regimen Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-06-17T10:46:20+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:description [ fhir:v "National antiretroviral therapy (ART) regimen codes used by the Ethiopia HIV program, mirroring the codes recorded on the national ART register. Demo subset — to be expanded."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1a" ] ;
+     fhir:display [ fhir:v "d4T-3TC-NVP" ]
+  ] [
+     fhir:code [ fhir:v "1c" ] ;
+     fhir:display [ fhir:v "AZT-3TC-NVP" ]
+  ] [
+     fhir:code [ fhir:v "1d" ] ;
+     fhir:display [ fhir:v "AZT-3TC-EFV" ]
+  ] [
+     fhir:code [ fhir:v "1e" ] ;
+     fhir:display [ fhir:v "TDF-3TC-EFV" ]
+  ] [
+     fhir:code [ fhir:v "1f" ] ;
+     fhir:display [ fhir:v "TDF-3TC-NVP" ]
+  ] [
+     fhir:code [ fhir:v "1g" ] ;
+     fhir:display [ fhir:v "ABC-3TC-EFV" ]
+  ] [
+     fhir:code [ fhir:v "1j" ] ;
+     fhir:display [ fhir:v "TDF-3TC-DTG" ]
+  ] [
+     fhir:code [ fhir:v "2f" ] ;
+     fhir:display [ fhir:v "AZT-3TC-ATV/r" ]
+  ] [
+     fhir:code [ fhir:v "2h" ] ;
+     fhir:display [ fhir:v "TDF-3TC-ATV/r" ]
+  ] [
+     fhir:code [ fhir:v "2i" ] ;
+     fhir:display [ fhir:v "ABC-3TC-LPV/r" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

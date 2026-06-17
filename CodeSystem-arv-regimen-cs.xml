@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="arv-regimen-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem arv-regimen-cs</b></p><a name="arv-regimen-cs"> </a><a name="hcarv-regimen-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/hiv/CodeSystem/arv-regimen-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1a<a name="arv-regimen-cs-1a"> </a></td><td>d4T-3TC-NVP</td></tr><tr><td style="white-space:nowrap">1c<a name="arv-regimen-cs-1c"> </a></td><td>AZT-3TC-NVP</td></tr><tr><td style="white-space:nowrap">1d<a name="arv-regimen-cs-1d"> </a></td><td>AZT-3TC-EFV</td></tr><tr><td style="white-space:nowrap">1e<a name="arv-regimen-cs-1e"> </a></td><td>TDF-3TC-EFV</td></tr><tr><td style="white-space:nowrap">1f<a name="arv-regimen-cs-1f"> </a></td><td>TDF-3TC-NVP</td></tr><tr><td style="white-space:nowrap">1g<a name="arv-regimen-cs-1g"> </a></td><td>ABC-3TC-EFV</td></tr><tr><td style="white-space:nowrap">1j<a name="arv-regimen-cs-1j"> </a></td><td>TDF-3TC-DTG</td></tr><tr><td style="white-space:nowrap">2f<a name="arv-regimen-cs-2f"> </a></td><td>AZT-3TC-ATV/r</td></tr><tr><td style="white-space:nowrap">2h<a name="arv-regimen-cs-2h"> </a></td><td>TDF-3TC-ATV/r</td></tr><tr><td style="white-space:nowrap">2i<a name="arv-regimen-cs-2i"> </a></td><td>ABC-3TC-LPV/r</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/hiv/CodeSystem/arv-regimen-cs"/>
+  <version value="0.1.0"/>
+  <name value="ARVRegimenCS"/>
+  <title value="ART Regimen Code System"/>
+  <status value="draft"/>
+  <date value="2026-06-17T10:46:20+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <description value="National antiretroviral therapy (ART) regimen codes used by the Ethiopia HIV program, mirroring the codes recorded on the national ART register. Demo subset — to be expanded."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="1a"/>
+    <display value="d4T-3TC-NVP"/>
+  </concept>
+  <concept>
+    <code value="1c"/>
+    <display value="AZT-3TC-NVP"/>
+  </concept>
+  <concept>
+    <code value="1d"/>
+    <display value="AZT-3TC-EFV"/>
+  </concept>
+  <concept>
+    <code value="1e"/>
+    <display value="TDF-3TC-EFV"/>
+  </concept>
+  <concept>
+    <code value="1f"/>
+    <display value="TDF-3TC-NVP"/>
+  </concept>
+  <concept>
+    <code value="1g"/>
+    <display value="ABC-3TC-EFV"/>
+  </concept>
+  <concept>
+    <code value="1j"/>
+    <display value="TDF-3TC-DTG"/>
+  </concept>
+  <concept>
+    <code value="2f"/>
+    <display value="AZT-3TC-ATV/r"/>
+  </concept>
+  <concept>
+    <code value="2h"/>
+    <display value="TDF-3TC-ATV/r"/>
+  </concept>
+  <concept>
+    <code value="2i"/>
+    <display value="ABC-3TC-LPV/r"/>
+  </concept>
+</CodeSystem>
