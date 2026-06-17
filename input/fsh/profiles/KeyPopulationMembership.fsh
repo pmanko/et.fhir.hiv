@@ -7,7 +7,7 @@ Description: "Indicates whether the client is a member of a key population with 
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#LAXXXX "Key population membership" // placeholder if no exact LOINC is used
+// TODO: bind code once a real LOINC/national code is chosen (was placeholder LOINC#LAXXXX)
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

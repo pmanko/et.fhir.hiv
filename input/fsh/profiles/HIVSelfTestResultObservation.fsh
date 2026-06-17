@@ -7,7 +7,7 @@ Description: "HIV Self-test Result profile."
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#73761-5 "HIV self-test result"
+// TODO: bind code once validated against a terminology server (was LOINC#73761-5, unknown in bundled LOINC)
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

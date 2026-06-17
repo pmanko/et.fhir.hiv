@@ -3,7 +3,6 @@ Id: hiv-testing-reason-cs
 Title: "HIV Testing Reason CodeSystem"
 Description: "Code system of HIV Testing Reason codes."
 
-* ^url = "http://fhir.et/core/CodeSystem/hiv-testing-reason"
 
 * #First-time-HIV-test "First-time HIV test"
 * #Retesting-for-HIV "Retesting for HIV"
